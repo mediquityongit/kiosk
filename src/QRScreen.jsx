@@ -2,7 +2,7 @@ import React from "react";
 import { QRCodeCanvas } from "qrcode.react";
 
 export default function QRScreen() {
-  const registerUrl = `https://hims.themediq.com:2020/abha-qr-patientlist`;
+  const registerUrl = `https://hims.themediq.com:4097/abha-qr-patientlist`;
   const user = "patient@cmch.cmh";
     const password = "demo@123"
 
